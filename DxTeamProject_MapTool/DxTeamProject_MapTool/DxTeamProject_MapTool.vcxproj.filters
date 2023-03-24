@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Imgui">
+      <UniqueIdentifier>{19a3e9aa-cb79-442e-95cd-65b006831feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Manager">
+      <UniqueIdentifier>{c00022bd-7e2f-4d88-a80c-18b1559206d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{7810605b-62cb-4648-aa1e-741fb5c6e245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Grid">
+      <UniqueIdentifier>{14ae3bf7-91aa-43db-950c-5b7b05d6eaf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cube">
+      <UniqueIdentifier>{e3fd9e25-cfbd-4a2e-9c83-6757ddd479c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object">
+      <UniqueIdentifier>{342f69d2-fb39-4d7f-9e50-10511a742603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Background">
+      <UniqueIdentifier>{965d2f05-ea6e-4bc7-bc24-23b5fc4fb310}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Object">
+      <UniqueIdentifier>{696c3b97-9b1b-4097-b67c-f21de2c354bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Tile">
+      <UniqueIdentifier>{0866f516-49c1-4b99-9f51-bb55edcf7f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Light">
+      <UniqueIdentifier>{44727541-c243-4a48-8b15-0c294f9a06f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OBB">
+      <UniqueIdentifier>{a28edb30-d7a0-4878-b650-8fdd7d5cf27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Gimmick">
+      <UniqueIdentifier>{8b321869-a60a-47ca-a531-6e6f29863968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Object\Item">
+      <UniqueIdentifier>{97d02914-428b-4f81-b5a3-28d5d2887186}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imconfig.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DeviceManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="ImguiClass.h">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Gizmo.h">
+      <Filter>Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid.h">
+      <Filter>Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="toolMain.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Singleton.h">
+      <Filter>Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Cube.h">
+      <Filter>Cube</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Object\Background</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLoadManager.h">
+      <Filter>Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="IObject.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Object\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Object\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>Object\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Cylinder.h">
+      <Filter>Object\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Ray.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Object\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Light</Filter>
+    </ClInclude>
+    <ClInclude Include="OBB.h">
+      <Filter>OBB</Filter>
+    </ClInclude>
+    <ClInclude Include="Gimmick.h">
+      <Filter>Object\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="RotationBoard.h">
+      <Filter>Object\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Switch.h">
+      <Filter>Object\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>Object\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="MovingCube.h">
+      <Filter>Object\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Book.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ColorChanger.h">
+      <Filter>Object\Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="Orb.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Trace.h">
+      <Filter>Object\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="EventTrigger.h">
+      <Filter>Object</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="DeviceManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ImguiClass.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Gizmo.cpp">
+      <Filter>Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid.cpp">
+      <Filter>Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="toolMain.cpp" />
+    <ClCompile Include="Cube.cpp">
+      <Filter>Cube</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Object\Background</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLoadManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="IObject.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Object\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Box.cpp">
+      <Filter>Object\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Cylinder.cpp">
+      <Filter>Object\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>Object\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Ray.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="originMain.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Object\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Light</Filter>
+    </ClCompile>
+    <ClCompile Include="OBB.cpp">
+      <Filter>OBB</Filter>
+    </ClCompile>
+    <ClCompile Include="Gimmick.cpp">
+      <Filter>Object\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="RotationBoard.cpp">
+      <Filter>Object\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Switch.cpp">
+      <Filter>Object\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>Object\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="MovingCube.cpp">
+      <Filter>Object\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Book.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ColorChanger.cpp">
+      <Filter>Object\Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="Orb.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Trace.cpp">
+      <Filter>Object\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="EventTrigger.cpp">
+      <Filter>Object</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
